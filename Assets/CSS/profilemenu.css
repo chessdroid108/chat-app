@@ -1,0 +1,96 @@
+/* 
+    #profilebtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-left: 100px;
+}
+
+*/
+
+.profilemenu {
+    position: relative;
+    display: block;
+    margin-top:100px;
+}
+
+.profilebtnImg {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.profilemenu:hover .profile-content {
+    display: block;
+}
+
+.content {
+    border: 2px solid orangered;
+    padding: 20px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+}
+
+.content button:hover {
+    background-color: orange;
+    border-color: red;
+}
+
+#signout {
+    margin-bottom: 20px;
+    padding-right: 30px;
+    padding-left: none;
+}
+
+#signouttext {
+    text-indent: 20px;
+    padding: 0px;
+    color: red;
+    text-emphasis: none;
+}
+
+#signouttext::selection {
+    color: black;
+}
+
+@media only screen and(orientation:portrait) {
+    #signout {
+        background-color: orange;
+        border-color: red;
+    }
+
+    .profilemenu:hover .profile-content {
+        display: none;
+    }
+
+    .profilemenu {
+
+    }
+}
+
+@media only screen and(orientation:landscape) {
+    #signout {
+        background-color: orange;
+        border-color: red;
+    }
+
+    .profilemenu:hover .profile-content {
+        display: none;
+    }
+
+    .profilemenu {
+
+    }
+}

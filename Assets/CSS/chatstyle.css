@@ -1,0 +1,47 @@
+#wrapper {
+    position:absolute;
+    top:0px;
+    background: url("../Images/mountains.jpg");
+    background-size: 1366px 768px;
+    background-repeat:no-repeat;
+    height:100%;
+    font-size: 18px;
+    color: black;
+    width: 100%;
+    border: 2px solid red;
+}
+
+#users {
+    padding:0px;
+    height:100%;
+}
+
+#users table {
+    position:fixed;
+    line-height:1.6;
+    top:200px;
+    line-height:normal;
+    background-color:white;
+    border:2px solid blue;
+    border-collapse:collapse;
+    border-spacing:0;
+    padding-bottom:0px;
+    padding-right:100px;
+}
+
+@media only screen and(orientation:portrait) {
+    #wrapper {
+        padding-bottom: 850px;
+    }
+    #users {
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (orientation:landscape) {
+    #users {
+        margin-left: 75px;
+        margin-top: 75px;
+    }
+}
