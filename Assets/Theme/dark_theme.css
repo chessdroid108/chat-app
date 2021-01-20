@@ -1,0 +1,39 @@
+#profilebtn {
+    background-color:whitesmoke;
+    color:black;
+    border:2px solid white;
+}
+
+.profile-content {
+    border:1px solid cyan;
+}
+
+.content {
+    border:2px solid cyan;
+    color:gray
+}
+
+#signout {
+    background-color:red;
+}
+
+#signout:hover {
+    background-color:cyan
+}
+
+#signout:hover #signouttext {
+    color:green;
+}
+
+#signouttext {
+    color:white;
+    background-color:none;
+}
+
+#wrapper {
+    background-color:black;
+}
+
+#users table {
+    color:white;
+}

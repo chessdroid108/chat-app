@@ -1,0 +1,36 @@
+#profilebtn {
+    border:2px solid white;
+}
+
+.profile-content {
+    background-color:black;
+}
+
+.content {
+    border:2px solid blue;
+    background-color:white;
+    color:black;
+}
+
+.content button:hover {
+    background-color:blue;
+    border-color:green;
+}
+
+#signouttext {
+    color:orange;
+}
+
+#signouttext::selection {
+    color:white;
+}
+
+#wrapper {
+    background-color:red;
+    border: 2px solid green;
+
+}
+
+#users {
+    border:2px solid darkred;
+}
